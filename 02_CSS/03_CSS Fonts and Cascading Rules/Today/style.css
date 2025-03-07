@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    background-color: beige;
+    color: red !important;
+}
+
+/* Element tag */
+/* 
+#first_id{
+    background-color: pink ;
+} */
+
+/* Id use */
+
+/* .first_class{
+    background-color: blueviolet;
+} */
+
+/* class */
+
+/* h1[draggable="true"]{
+    background-color: coral;
+} */
+/* Attribute selector */
+/* 
+body h1{
+    background-color: black;
+} */
+
+/* Descendent */
+/* 
+body > h1{
+    background-color: gray;
+} */
+
+/* child */
+
+
+
+

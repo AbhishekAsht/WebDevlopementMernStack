@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    padding: 10rem;
+}
+
+.container{
+   height: 100%;
+   width: 100%;
+   background-color: azure;
+   display: grid;
+   grid-template-columns: repeat(2,400px);
+   grid-template-rows: repeat(2,400px);
+   gap: 1rem;
+   justify-content: right;
+   align-content: center;
+   justify-items: end;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    font-size: 2rem;
+}
+

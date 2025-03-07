@@ -1,0 +1,50 @@
+bundler: use parcle
+
+use in project:
+command :
+1] npm init 
+2] npm install parcel
+
+
+version: 18.2.4
+
+major.minor.patch 
+
+sign used: 
+
+^minor and patch
+~only patch
+
+react server run command 
+
+npx parcel index.html
+
+optimize code generate to production ready code in server then used command
+
+npx parcel build index.html
+
+folder are create : dist
+
+website used to code production : netlify.com
+
+*******************************************************************************
+
+jsx = javascript xml
+
+Hooks
+
+syntax :
+[variable, function ] = useState(initialize first time )
+
+**********************************************************************************
+hooks react 
+1] useState(initilize value)
+
+syntax :
+[variable, function ] = useState(initialize first time )
+
+2] useEffect(call by function,dpendency)
+3] useMemo(call by function,dpendency)
+4] useCallback(call by function,dpendency)
+5] useRef(initilize value)
+ 

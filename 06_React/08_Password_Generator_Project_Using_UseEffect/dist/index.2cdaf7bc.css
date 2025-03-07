@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#root {
+  text-align: center;
+  background-color: #dac6ac;
+  width: 500px;
+  padding: 20px 10px;
+}
+
+.second {
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

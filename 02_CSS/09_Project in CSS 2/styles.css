@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(253, 243, 243);
+}
+
+.image{
+    position: relative;
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(218, 43, 16, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243);
+    border-radius: 20px;
+}
+
+.first{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+.third{
+    height: 500px;
+    background-color: grey;
+}
+
+.dining{
+    margin-left: 200px;
+}
+
+
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.img3{
+    height: 70px;
+    width: 70px;
+}
+
+
+
+.dine, .Delivery, .Nighting{
+    position: relative;
+    bottom: 22px;
+    left: 5px;
+    font-size: 20px;
+    color: rgb(98, 93, 93);
+}
+
+.delivery{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.brand{
+    color: rgb(216, 5, 5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 13px;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: rgb(101, 97, 97);
+}
+
+.head{
+    background-color: white;
+}
+
+
+
+.Box{
+    display: inline-block;
+}
+
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.Restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Restaurant , .food, .Location{
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+
+.price, .Distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .Place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.Distance{
+    font-size: 10px;
+    font-weight: bold;
+}

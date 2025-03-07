@@ -1,0 +1,42 @@
+h2{
+    background-color: aqua;
+    width: 300px;
+    height: 200px;
+    /* border-width: 5px; 
+    border-style: solid;
+    border-color: brown; */
+    border-radius: 20px;
+    /* shortcuts */
+    border: 5px brown solid;
+    padding: 10px 20px 30px 40px;
+    margin: 20px 50px 15px 10px;
+    
+}
+
+/* margin left margin right */
+
+h4{
+    background-color: plum;
+    /* border-left-width: 10px;
+    border-left-color: blue;
+    border-left-style: solid; */
+    border-width: 10px 20px 30px 40px;
+    border-style: solid;
+    border-color: green;
+}
+
+/* When we have 2 option for border width
+it will be allocated to top and bottom, right and left */
+
+ul{
+    background-color: pink;
+}
+
+p{
+    
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 15px;
+}
+

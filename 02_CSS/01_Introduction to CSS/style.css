@@ -1,0 +1,27 @@
+h1{
+    color: aquamarine;
+    background-color: black;
+}
+
+ul{
+    color: blue;
+    background-color: brown;
+}
+
+/* Select by class name */
+/* You need to apply dot(.) first*/
+.first{
+    background-color: blue;
+}
+
+.second{
+    background-color: aqua;
+}
+
+/* select by id (unique) */
+/* # ko use karna hai, then id name */
+
+#third{
+    background-color: pink;
+}
+

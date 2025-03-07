@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 10rem;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem; 
+    
+}
+
+.Box{
+    background-color: orange;
+    font-size: 2rem;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    
+}
+
+.Box1:hover{
+    transform: rotatex(60deg);
+}
+
+.Box2:hover{
+    transform: rotatey(60deg);
+}
+
+.Box3:hover{
+    transform: rotatez(-50deg);
+}
+
+.Box4:hover{
+    transform: translatex(-200px)
+}
+
+.Box5:hover{
+    transform: translatey(200px);
+}
+
+.Box6:hover{
+    transform: perspective(300px) translatez(200px);
+}
+
+.Box7:hover{
+    transform: scalex(0.5);
+}
+
+.Box8:hover{
+    transform: scaley(2);
+}
+
+.Box9:hover{
+    transform: perspective(300px) rotatey(45deg) scalez(2);
+}
+
+
+

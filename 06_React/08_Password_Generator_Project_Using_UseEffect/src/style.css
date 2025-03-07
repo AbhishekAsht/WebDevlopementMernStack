@@ -1,0 +1,21 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    width: 500px;
+    padding: 20px 10px;
+    background-color: rgb(218, 198, 172);
+    text-align: center;
+}
+
+
+.second{
+    font-size: 20px;
+}

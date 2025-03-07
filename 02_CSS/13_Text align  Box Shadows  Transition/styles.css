@@ -1,0 +1,55 @@
+/* h1{
+    background-color: aqua;
+    color: orange;
+    text-align: justify;
+} */
+
+/* text align: left, right, center, justify */
+/* 
+.container{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1{
+    background-color: pink;
+}
+
+p{
+    background-color: orange;
+}
+
+button{
+    background-color: red;
+} */
+
+/* p{
+    background-color: olivedrab;
+    text-align-last:right;
+} */
+
+/* text-align-last:right; */
+
+h1{
+
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* text-decoration-line:overline underline;
+    text-decoration-color: aqua;
+    text-decoration-style: dotted; */
+
+    /* text-transform: capitalize; */
+}
+
+span{
+    /* vertical-align: super;  sub */
+}
+
+p{
+    /* text-indent: 200px;
+    letter-spacing: 1px;
+    line-height: 20px; */
+    /* text-shadow: 2px 2px; */
+}
+
+/* text shadow is homework */

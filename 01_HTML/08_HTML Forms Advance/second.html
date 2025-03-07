@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="url_server">
+
+      <fieldset>
+        <legend>User Info</legend>
+
+      <!-- Full Name -->
+       <label for="name">Full Name:* </label>
+      <input type="text" id="name" name="fname">
+      <br><br>
+
+      <!-- Email -->
+       <label for="email">Email: </label>
+      <input type="email" id="email" name="Email">
+      <br><br>
+
+      <!-- Phone -->
+       <label for="contact">Phone: </label>
+       <input type="tel" name="phone" id="contact">
+       <br><br>
+
+      <!-- Password -->
+      
+      <label for="pass">Password</label>
+      <input type="password" name="password" id="pass">
+      <br><br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>User Other Info</legend>
+      <!-- Gender -->
+       <label>Gender: </label>
+       
+       <input type="radio" id="male" name="gender" value="Male">
+       <label for="male">Male:</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female:</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other:</label>
+        <br><br>
+
+      <!-- DOB -->
+      <label for="date">DOB: </label>
+      <input type="date" id="date" name="DOB" min="2001-01-01" max="2005-12-31">
+      <br><br>
+
+      <!-- School Name -->
+       <label for="school">School Name:</label>
+      <input type="text" id="school" name="School">
+      <br><br>
+
+      <!-- Board -->
+      <label for="board">Board:</label>
+      <select name="Board" id="board">
+        <option value="" disabled selected>Select your Board</option>
+        <option value="CBSE">CBSE</option>
+        <option value="ICSE">ICSE</option>
+        <option value="UPBOARD">UPBOARD</option>
+        <option value="UKB">UKB</option>
+      </select>
+
+      <br><br>
+
+      <!-- Year of Passing -->
+       <!--2023 2024 2025  -->
+       <label for="year">Year of Passing: </label>
+       <input type="number" id="year" name="Year" min="2023" max="2025">
+
+       <br><br>
+
+      <!-- Exam Center -->
+
+      <label for="center">Exam Center: </label>
+      <select name="Center" id="center">
+        <option value="" disabled selected>Select Exam Center:</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Dehradun">Dehradun</option>
+        <option value="Goa">Goa</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Hyderabad">Hyderabad</option>
+      </select>
+
+      <br><br>
+
+    </fieldset>
+
+      <!-- Register -->
+
+      <button>Register</button>
+     
+     
+    </form>
+</body>
+</html>

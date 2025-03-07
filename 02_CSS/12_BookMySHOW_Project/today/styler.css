@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(215, 46, 46);
+    padding: 2rem;
+}
+
+h1{
+    color: white;
+}
+
+.right button{
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(215, 46, 46);
+    border: none;
+    padding-top: .3rem;
+    cursor: pointer;
+}
+
+.search{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 177, 177);
+}
+
+.searching{
+    width: 400px;
+    max-width: 60%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.search > button {
+    margin-left: .5rem;
+    font-size: 1rem;
+    background-color: rgb(215, 46, 46);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./mover.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hero > h2{
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+}
+
+.hero > button{
+   background-color: rgb(215, 46, 46);
+   color: white;
+   font-size: 2rem;
+   margin-top: 1rem;
+   cursor: pointer;
+   padding: 0.5rem;
+   border-radius: 10px;
+}
+
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+
+.mover > h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.images{
+    height: 400px;
+}
+
+.movie{
+    display: flex;
+    /* justify-content: center; */
+    overflow-x: scroll;
+}
+
+.card{
+    border: 0.5rem solid rgb(208, 199, 199);
+    background-color:rgb(208, 199, 199);
+    text-align: center;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.card > h3{
+    font-size: 2rem;
+}
+
+.bot{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.bot > img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+
+@media (max-width:500px)
+{
+    .logo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right{
+       display: flex; 
+       flex-direction: column;
+       padding-top: 1rem;
+    }
+
+    .movie{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+

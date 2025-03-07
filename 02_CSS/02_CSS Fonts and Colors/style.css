@@ -1,0 +1,30 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+
+/* Pixel size is determinde by your device size */
+/* em , relative to parent font size */
+/* rem , relative to HTML font size */
+/* % relative to parent font size */
+
+/* Font size 
+pixel px */
+
+/* Name ke sath */
+
+h3{
+    color: #a13818ff;
+}
+
+/* Change by rgb */
+/* 0-255 */
+/* Hexdecimal ko use karna */
+/* # tag use, 6 character(0-f) */
+
+p{
+    color: hsla(228, 55%, 24%,1);
+}
+
+/* name, rgb, hexadecimal, hsl */
+/* a means alpha */

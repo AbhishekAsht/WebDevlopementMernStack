@@ -1,0 +1,45 @@
+.container{
+    background-color:blanchedalmond;
+    margin-left: 200px;
+    margin-top: 150px;
+    position: relative;
+    height: 1000px;
+}
+
+.newcontainer{
+    height: 800px;
+    background-color:brown;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+    position: sticky;
+    
+}
+
+/* top bottom left right */
+/*  static*/
+/* relative */
+/* absoloute */
+/* fixed */
+/* sticky */
+/* Homework sticky mein top mention karna jaruri hai kya? */
+/* Agar mention na karu, toh wo work kyn nahi kar rha */
+
+.box3{
+    background-color: green;
+}
+
+.box4{
+    background-color: orange;
+}

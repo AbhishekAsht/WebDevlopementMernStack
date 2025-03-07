@@ -1,0 +1,38 @@
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.container{
+    background-color: aqua;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.box1{
+    background-color: red;
+    position: relative;
+    z-index: 7;
+    left: 250px;
+}
+
+.box2{
+    background-color: blue;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 100;
+}
+
+/* default z-index wo hota hai auto */
+
+.box3{
+    background-color: green;
+    position: relative;
+    z-index: 5;
+}
+
+.box4{
+    background-color: orange;
+}

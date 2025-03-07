@@ -1,0 +1,11 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    overflow: auto;
+}
+
+/* visible (default) */
+/* hidden */
+/* scroll */
+/* auto */

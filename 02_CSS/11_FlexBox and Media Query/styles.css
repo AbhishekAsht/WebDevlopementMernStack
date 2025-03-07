@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+/* flex item */
+/* order it defines the order of element */
+/* deafult order is zero */
+
+.box1{
+    background-color: red;
+    /* order: 10; */
+    /* align-self: start; */
+}
+
+.box2{
+    background-color: blue;
+    /* width: 600px; */
+    /* flex-grow: 1;  */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+}
+
+.box3{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 3;  */
+    /* align-self:end; */
+    /* flex: 2 2 200px; */
+
+}
+
+.box4{
+    background-color: orange;
+    /* order: 5; */
+    
+}
+
+/* Desktop */
+
+
+
+/* Tablet */
+
+
+/* Mobile */
+
+
+
